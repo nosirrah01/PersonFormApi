@@ -361,3 +361,14 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Custom entries
+## Ignore appsettings.json which should be used for storing sensitive data
+appsettings.json
+
+## Ignore logs folder which contains log files
+logs/
+
+## Ignore bin and obj folders
+bin/
+obj/
