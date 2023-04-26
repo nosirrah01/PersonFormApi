@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>PersonForm</title>
+    </head>
+    <body>
+        <h1>Person Form</h1>
+        <!--change to post later-->
+        <form action="/api/Person" method="post">
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name"><br />
+            <label for="age">Age:</label><br />
+            <input type="text" id="age" name="age"><br />
+            <label for="sex">Sex:</label><br />
+            <input type="radio" id="m" name="sex" value="m">
+            <label for="m">m</label>
+            <input type="radio" id="f" name="sex" value="f">
+            <label for="f">f</label>
+            <input type="radio" id="other" name="sex" value="other">
+            <label for="other">other</label><br /><br />
+            <input type="submit" value="Submit" />
+        </form>
+    </body>
+</html>
